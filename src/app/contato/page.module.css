@@ -1,11 +1,11 @@
 .main {
-    min-height: calc(100vh - 80px);
-    padding: 0 48px;
+	min-height: calc(100vh - 80px);
+	padding: 0 48px;
 }
 
 .title {
-    font-family: var(--font-licorice);
-    font-size: 72px;
-    color: var(--mainTextColor);
-    padding: 32px 0;
+	font-family: var(--font-licorice);
+	font-size: 72px;
+	color: var(--mainTextColor);
+	padding: 32px 0;
 }
