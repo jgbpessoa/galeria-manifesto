@@ -1,11 +1,61 @@
-.main {
-	min-height: calc(100vh - 80px);
-	padding: 0 48px;
-}
-
 .title {
 	font-family: var(--font-licorice);
 	font-size: 72px;
 	color: var(--mainTextColor);
 	padding: 32px 0;
+	position: relative;
+}
+
+.main {
+	padding-top: 16px;
+}
+
+.hero {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.title {
+	font-size: 52px;
+	font-family: var(--font-oferta);
+	color: var(--baseRed);
+}
+
+.image {
+	min-width: 250px;
+	max-width: 500px;
+	width: 50%;
+	object-fit: contain;
+	height: auto;
+}
+
+.description {
+	font-family: var(--font-oriya);
+	font-size: 18px;
+	line-height: 1.5;
+	text-align: center;
+	max-width: 800px;
+	color: var(--mainTextColor);
+	margin: 0 24px 80px;
+}
+
+.artist {
+	font-family: var(--font-oriya-bold);
+}
+
+.author {
+	display: block;
+	text-align: right;
+	margin-left: auto;
+	font-family: var(--font-oriya-bold);
+}
+
+.mapContainer {
+	margin: 44px 0;
+}
+
+.map {
+	width: 100%;
+	height: 400px;
 }

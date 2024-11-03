@@ -24,6 +24,7 @@
 	flex-direction: column;
 	gap: 24px;
 	position: relative;
+	padding-bottom: 60px;
 }
 
 .modalImageContainer {
@@ -66,7 +67,7 @@
 	cursor: pointer;
 	transition: background-color 0.3s;
 	font-family: var(--font-oriya-bold);
-	position: absolute;
+	position: fixed;
 	right: 20px;
 	font-family: var(--font-oferta);
 	font-size: 20px;
@@ -78,7 +79,7 @@
 
 .prevButton,
 .nextButton {
-	position: absolute;
+	position: fixed;
 	bottom: 12px;
 	transform: translateY(-50%);
 	background: rgba(0, 0, 0, 0.5);
@@ -206,6 +207,7 @@
 		height: auto;
 		max-height: 90%;
 		width: 60%;
+		padding-bottom: 20px;
 	}
 
 	.modalImageContainer {

@@ -6,7 +6,7 @@ import imageData from "./data";
 import Modal from "@/components/modal";
 import Image from "next/image";
 
-export default function Explore() {
+export default function Gallery() {
 	const [isModalOpen, setIsModalOpen] = useState(false);
 	const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(
 		null,
@@ -26,6 +26,9 @@ export default function Explore() {
 		<main className={styles.main}>
 			<section className={styles.hero}>
 				<h1 className={styles.title}>Galeria</h1>
+				<p className={styles.warning}>
+					🎧 Audiodescrição das obras disponível em breve! 🎧
+				</p>
 			</section>
 			<section className={styles.gallery}>
 				{imageData.map((item, index) => (

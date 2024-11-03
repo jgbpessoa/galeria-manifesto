@@ -1,11 +1,90 @@
-.main {
-	min-height: calc(100vh - 80px);
-	padding: 0 48px;
-}
-
 .title {
 	font-family: var(--font-licorice);
 	font-size: 72px;
 	color: var(--mainTextColor);
 	padding: 32px 0;
+	position: relative;
+}
+
+.main {
+	padding-top: 16px;
+}
+
+.hero {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 80px;
+}
+
+.title {
+	font-size: 52px;
+	font-family: var(--font-oferta);
+	color: var(--baseRed);
+}
+
+.artists {
+	display: flex;
+	flex-direction: column;
+	gap: 48px;
+	align-items: center;
+	justify-content: center;
+	max-width: 800px;
+	margin: 0 24px;
+}
+
+.image {
+	min-width: 250px;
+	width: 60%;
+	max-width: 500px;
+	object-fit: contain;
+	height: auto;
+	margin: 16px 0;
+	display: block;
+	border: 5px solid var(--lighterBlue);
+	border-radius: 12px;
+}
+
+.name {
+	font-size: 40px;
+	text-align: center;
+	font-family: var(--font-oferta);
+	margin-bottom: 8px;
+	color: var(--lightBlue);
+}
+
+.artistHeader {
+	float: left;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 350px;
+}
+
+.right {
+	float: right;
+}
+
+.artist:nth-of-type(2) {
+	flex-direction: row-reverse;
+}
+
+.description {
+	font-family: var(--font-oriya);
+	font-size: 16px;
+	line-height: 1.75;
+	text-align: justify;
+	color: var(--mainTextColor);
+}
+
+@media (max-width: 650px) {
+	.artistHeader {
+		float: none;
+		margin: 0 auto 24px;
+	}
+
+	.description {
+		font-size: 18px;
+	}
 }
