@@ -47,34 +47,111 @@
 	justify-content: space-evenly;
 }
 
+.menuIcon {
+	display: none;
+	flex-direction: column;
+	gap: 5px;
+	cursor: pointer;
+	position: absolute;
+	right: 32px;
+	top: 32px;
+	z-index: 101;
+}
+
+.bar {
+	width: 30px;
+	height: 3px;
+	background-color: var(--mainTextColor);
+	transition:
+		transform 0.3s ease,
+		opacity 0.3s ease;
+}
+
+.menuOpen .bar:nth-child(1) {
+	transform: translateY(8px) rotate(45deg);
+}
+
+.menuOpen .bar:nth-child(2) {
+	opacity: 0;
+}
+
+.menuOpen .bar:nth-child(3) {
+	transform: translateY(-8px) rotate(-45deg);
+}
+
 .navLink {
 	position: relative;
 	text-decoration: none;
 	font-size: 28px;
 	color: var(--mainTextColor);
-
-	&::before {
-		content: "";
-		display: block;
-		width: 0;
-		height: 4px;
-		background-color: var(--baseRed);
-		transition: width 0.3s ease-in-out;
-		position: absolute;
-		bottom: 0;
-	}
 }
 
-.navLink:hover {
-	&::before {
-		width: 100%;
-	}
+.navLink::before {
+	content: "";
+	display: block;
+	width: 0;
+	height: 4px;
+	background-color: var(--baseRed);
+	transition: width 0.3s ease-in-out;
+	position: absolute;
+	bottom: 0;
 }
 
+.navLink:hover::before,
 .navLink.isActive::before {
 	width: 100%;
 }
 
-.logo:hover {
-	color: var(--baseRed);
+.logo {
+	@media (hover) {
+		&:hover {
+			color: var(--baseRed);
+		}
+	}
+}
+
+.social {
+	display: none;
+}
+
+@media (max-width: 978px) {
+	.header {
+		padding: 16px 24px 10px;
+	}
+
+	.menuIcon {
+		display: flex;
+	}
+
+	.navList {
+		display: none;
+	}
+
+	.navLink {
+		font-size: 42px;
+	}
+
+	.navListMobile {
+		display: flex;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		background-color: var(--baseYellow);
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 40px;
+		z-index: 100;
+	}
+
+	.logoItem {
+		position: static;
+		font-size: 24px;
+	}
+
+	.social {
+		display: block;
+	}
 }

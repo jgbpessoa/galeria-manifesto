@@ -1,15 +1,37 @@
 .footer {
 	background-color: var(--baseBlue);
-	height: 200px;
+	padding: 48px 24px;
 	width: 100%;
+	box-sizing: border-box;
 	display: flex;
+	flex-direction: column;
+	gap: 32px;
 	justify-content: center;
 	align-items: center;
 }
 
 .copyright {
-	font-family: var(--font-noto);
-	font-size: 18px;
+	font-family: var(--font-oriya);
+	font-size: 14px;
+	line-height: 1.5;
 	color: var(--baseYellow);
 	text-align: center;
+}
+
+.logos {
+	width: calc(100% - 48px);
+	max-width: 700px;
+	box-sizing: border-box;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 550px) {
+	.logos {
+		width: 100%;
+	}
 }

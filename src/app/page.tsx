@@ -34,9 +34,9 @@ export default function Home() {
 						<span className={styles.bold}>Paz Brandão</span>.
 					</p>
 					<Button
-						text="explorar obras ➜"
+						text="explorar galeria ➜"
 						type="blue"
-						href="/explorar/"
+						href="/galeria"
 					/>
 				</section>
 			</main>

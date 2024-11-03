@@ -6,7 +6,7 @@ export default function Explore() {
 		<div className={styles.page}>
 			<main className={styles.main}>
 				<section className={styles.hero}>
-					<h1 className={styles.title}>Explorar</h1>
+					<h1 className={styles.title}>Galeria</h1>
 				</section>
 			</main>
 		</div>
