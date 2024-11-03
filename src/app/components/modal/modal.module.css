@@ -1,0 +1,219 @@
+.modalOverlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.8);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 1000;
+}
+
+.modalContent {
+	background: white;
+	padding: 20px;
+	border-radius: 8px;
+	height: 90%;
+	width: 90%;
+	overflow-y: auto;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 24px;
+	position: relative;
+}
+
+.modalImageContainer {
+	margin-top: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 100%;
+}
+
+.vertical {
+	max-width: 70% !important;
+}
+
+.modalImage {
+	position: static !important;
+	object-fit: contain;
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.technicalData {
+	border: 2px var(--black) solid;
+	padding: 16px;
+	line-height: 1.8;
+	font-family: var(--font-oriya);
+}
+
+.technicalTitle {
+	font-family: var(--font-oriya-bold);
+}
+
+.closeButton {
+	padding: 12px 16px 8px;
+	background-color: #ff4757;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+	font-family: var(--font-oriya-bold);
+	position: absolute;
+	right: 20px;
+	font-family: var(--font-oferta);
+	font-size: 20px;
+}
+
+.closeButton:hover {
+	background-color: var(--baseRed);
+}
+
+.prevButton,
+.nextButton {
+	position: absolute;
+	bottom: 12px;
+	transform: translateY(-50%);
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	border: none;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	z-index: 1002;
+}
+
+.prevButton {
+	left: 24px;
+}
+
+.nextButton {
+	right: 24px;
+}
+
+.prevButton:hover,
+.nextButton:hover {
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+
+.type {
+	font-family: var(--font-cabelelera);
+	font-size: 28px;
+	display: flex;
+	align-items: baseline;
+	gap: 12px;
+}
+
+.handwritten {
+	font-family: var(--font-baby);
+	font-size: 30px;
+	line-height: 1.5;
+	font-weight: 600;
+}
+
+.icon {
+	width: 50px;
+	height: 50px;
+	align-self: center;
+}
+
+.blocoPauCorda {
+	background: url("../../public/assets/images/manifestacoes/bloco-de-pau-e-corda.svg")
+		no-repeat;
+}
+
+.escolaSamba {
+	background: url("../../public/assets/images/manifestacoes/escola-de-samba.svg")
+		no-repeat;
+}
+
+.clubeFrevo {
+	background: url("../../public/assets/images/manifestacoes/clube-de-frevo.svg")
+		no-repeat;
+}
+
+.laUrsa {
+	background: url("../../public/assets/images/manifestacoes/la-ursa.svg")
+		no-repeat;
+}
+
+.caboclinhos {
+	background: url("../../public/assets/images/manifestacoes/caboclinhos.svg")
+		no-repeat;
+}
+
+.afoxe {
+	background: url("../../public/assets/images/manifestacoes/afoxe.svg")
+		no-repeat;
+}
+
+.boiCarnaval {
+	background: url("../../public/assets/images/manifestacoes/boi-de-carnaval.svg")
+		no-repeat;
+}
+
+.clubeBonecos {
+	background: url("../../public/assets/images/manifestacoes/clube-de-bonecos.svg")
+		no-repeat;
+}
+
+.maracatuNacao {
+	background: url("../../public/assets/images/manifestacoes/maracatu-nacao.svg")
+		no-repeat;
+}
+
+.maracatuRural {
+	background: url("../../public/assets/images/manifestacoes/maracatu-rural.svg")
+		no-repeat;
+}
+
+.triboIndios {
+	background: url("../../public/assets/images/manifestacoes/tribo-de-indio.svg")
+		no-repeat;
+}
+
+.trocaCarnavalesca {
+	background: url("../../public/assets/images/manifestacoes/troca-carnavalesca.svg")
+		no-repeat;
+}
+
+@media (min-width: 600px) {
+	.mobileOnly {
+		display: none;
+	}
+
+	.prevButton,
+	.nextButton {
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+	.modalContent {
+		height: auto;
+		max-height: 90%;
+		width: 60%;
+	}
+
+	.modalImageContainer {
+		max-width: 55%;
+		margin-top: 24px;
+	}
+
+	.vertical {
+		max-width: 60% !important;
+	}
+}
