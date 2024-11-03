@@ -28,17 +28,17 @@ export default function Contact() {
 					Estamos abertos para visitas do dia 03 de novembro até 02 de
 					dezembro, de quarta a domingo (10h às 16h) na Casa do
 					Carnaval com entrada gratuita.
-					<div className={styles.mapContainer}>
-						<iframe
-							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4979.071446388319!2d-34.88153477499214!3d-8.066998191960845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1925c7c2ded1%3A0xd2026aa7d7f34221!2sCasa%20do%20Carnaval!5e1!3m2!1spt-BR!2sbr!4v1730644962660!5m2!1spt-BR!2sbr"
-							style={{ border: "0" }}
-							allowFullScreen
-							loading="lazy"
-							referrerPolicy="no-referrer-when-downgrade"
-							className={styles.map}
-						></iframe>
-					</div>
 				</p>
+				<div className={styles.mapContainer}>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4979.071446388319!2d-34.88153477499214!3d-8.066998191960845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1925c7c2ded1%3A0xd2026aa7d7f34221!2sCasa%20do%20Carnaval!5e1!3m2!1spt-BR!2sbr!4v1730644962660!5m2!1spt-BR!2sbr"
+						style={{ border: "0" }}
+						allowFullScreen
+						loading="lazy"
+						referrerPolicy="no-referrer-when-downgrade"
+						className={styles.map}
+					></iframe>
+				</div>
 			</section>
 		</main>
 	);
