@@ -29,6 +29,9 @@ export default function Gallery() {
 				<p className={styles.warning}>
 					🎧 Audiodescrição das obras disponível em breve! 🎧
 				</p>
+				<p className={styles.warning}>
+					🖼️ Clique nas obras para mais informações 🖼️
+				</p>
 			</section>
 			<section className={styles.gallery}>
 				{imageData.map((item, index) => (

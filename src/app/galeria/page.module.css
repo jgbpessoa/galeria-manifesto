@@ -49,10 +49,11 @@
 	padding: 12px;
 	color: var(--baseBlue);
 	border: 2px solid var(--lighterBlue);
-	display: inline-block;
+	display: block;
+	width: fit-content;
 	border-radius: 8px;
 	background: var(--white);
-	margin-bottom: 16px;
+	margin: 0 auto 16px;
 }
 
 @media (max-width: 978px) {
