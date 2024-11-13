@@ -12,6 +12,7 @@ export default function About() {
 					alt="Foto mostrando o espaço da exposição"
 					className={styles.image}
 				/>
+				<h2 className={styles.subtitle}>Apresentação</h2>
 				<p className={styles.description}>
 					A mostra "No Manifesto das Ruas, Sou Meu Carnaval" apresenta
 					frestas para vivenciar um campo sensível e de saberes das
@@ -38,6 +39,91 @@ export default function About() {
 					cultura, identidade e história de Pernambuco. <br />
 					<br /> <span className={styles.author}>Thaes Arruda</span>
 				</p>
+				<h2 className={styles.subtitle}>Ficha Técnica</h2>
+				<table className={styles.table}>
+					<tbody>
+						<tr>
+							<td className={styles.cell}>Artistas</td>
+							<td className={styles.cell}>
+								Micaela Almeida e Paz Brandão
+							</td>
+						</tr>
+						<tr>
+							<td className={styles.cell}>
+								Curadoria e Expografia
+							</td>
+							<td className={styles.cell}>Thaes Arruda</td>
+						</tr>
+						<tr>
+							<td className={styles.cell}>Produção</td>
+							<td className={styles.cell}>Cora Fagundes</td>
+						</tr>
+						<tr>
+							<td className={styles.cell}>Montagem</td>
+							<td className={styles.cell}>Rômulo Francisco</td>
+						</tr>
+						<tr>
+							<td className={styles.cell}>
+								Auxiliar de Montagem
+							</td>
+							<td className={styles.cell}>Eraldo Braz</td>
+						</tr>
+						<tr>
+							<td className={styles.cell}>Direção de Arte</td>
+							<td className={styles.cell}>Micaela Almeida</td>
+						</tr>
+						<tr>
+							<td className={styles.cell}>
+								Gestor Casa do Carnaval
+							</td>
+							<td className={styles.cell}>Paulinho Mafe</td>
+						</tr>
+						<tr>
+							<td className={styles.cell}>
+								Administrativo Casa do Carnaval
+							</td>
+							<td className={styles.cell}>Ewerson Luiz</td>
+						</tr>
+						<tr>
+							<td className={styles.cell}>Educativo</td>
+							<td className={styles.cell}>
+								Marta Reis e Wilker Silva
+							</td>
+						</tr>
+						<tr>
+							<td className={styles.cell}>Estagiários</td>
+							<td className={styles.cell}>
+								Anthony Assis, Clara Soares, Denildo Costa,
+								Jebson Antônio, Juliana Chagas e Sueliton Fagner
+							</td>
+						</tr>
+						<tr>
+							<td className={styles.cell}>Identidade Visual</td>
+							<td className={styles.cell}>
+								Micaela Almeida e Zé Gabriel
+							</td>
+						</tr>
+						<tr>
+							<td className={styles.cell}>
+								Design Gráfico e Diagramação
+							</td>
+							<td className={styles.cell}>Zé Gabriel</td>
+						</tr>
+						<tr>
+							<td className={styles.cell}>
+								Desenvolvedor Web Site
+							</td>
+							<td className={styles.cell}>Zé Gabriel</td>
+						</tr>
+						<tr>
+							<td className={styles.cell}>Incentivo</td>
+							<td className={styles.cell}>
+								Edital Funcultura Geral - 2021/2022 - Secult /
+								Fundarpe
+							</td>
+						</tr>
+					</tbody>
+				</table>
 			</section>
 		</main>
 	);
