@@ -1,27 +1,27 @@
-import afoxeMica from "../public/assets/images/photos/afoxé-mica.webp";
-import afoxePaz from "../public/assets/images/photos/afoxé-paz.webp";
-import blocoMica from "../public/assets/images/photos/bloco-mica.webp";
-import blocoPaz from "../public/assets/images/photos/bloco-paz.webp";
-import boiMica from "../public/assets/images/photos/boi-mica.webp";
-import boiPaz from "../public/assets/images/photos/boi-paz.webp";
-import bonecosMica from "../public/assets/images/photos/bonecos-mica.webp";
-import bonecosPaz from "../public/assets/images/photos/bonecos-paz.webp";
-import caboclinhosMica from "../public/assets/images/photos/caboclinhos-mica.webp";
-import caboclinhosPaz from "../public/assets/images/photos/caboclinhos-paz.webp";
-import frevoMica from "../public/assets/images/photos/frevo-mica.webp";
-import frevoPaz from "../public/assets/images/photos/frevo-paz.webp";
-import maracatuNacaoMica from "../public/assets/images/photos/nacao-mica.webp";
-import maracatuNacaoPaz from "../public/assets/images/photos/nacao-paz.webp";
-import maracatuRuralMica from "../public/assets/images/photos/rural-mica.webp";
-import maracatuRuralPaz from "../public/assets/images/photos/rural-paz.webp";
-import sambaMica from "../public/assets/images/photos/samba-mica.webp";
-import sambaPaz from "../public/assets/images/photos/samba-paz.webp";
-import trocaMica from "../public/assets/images/photos/troca-mica.webp";
-import trocaPaz from "../public/assets/images/photos/troca-paz.webp";
-import triboMica from "../public/assets/images/photos/indios-mica.webp";
-import triboPaz from "../public/assets/images/photos/indios-paz.webp";
-import ursaMica from "../public/assets/images/photos/laursa-mica.webp";
-import ursaPaz from "../public/assets/images/photos/laursa-paz.webp";
+import afoxeMica from "/public/assets/images/photos/afoxé-mica.webp";
+import afoxePaz from "/public/assets/images/photos/afoxé-paz.webp";
+import blocoMica from "/public/assets/images/photos/bloco-mica.webp";
+import blocoPaz from "/public/assets/images/photos/bloco-paz.webp";
+import boiMica from "/public/assets/images/photos/boi-mica.webp";
+import boiPaz from "/public/assets/images/photos/boi-paz.webp";
+import bonecosMica from "/public/assets/images/photos/bonecos-mica.webp";
+import bonecosPaz from "/public/assets/images/photos/bonecos-paz.webp";
+import caboclinhosMica from "/public/assets/images/photos/caboclinhos-mica.webp";
+import caboclinhosPaz from "/public/assets/images/photos/caboclinhos-paz.webp";
+import frevoMica from "/public/assets/images/photos/frevo-mica.webp";
+import frevoPaz from "/public/assets/images/photos/frevo-paz.webp";
+import maracatuNacaoMica from "/public/assets/images/photos/nacao-mica.webp";
+import maracatuNacaoPaz from "/public/assets/images/photos/nacao-paz.webp";
+import maracatuRuralMica from "/public/assets/images/photos/rural-mica.webp";
+import maracatuRuralPaz from "/public/assets/images/photos/rural-paz.webp";
+import sambaMica from "/public/assets/images/photos/samba-mica.webp";
+import sambaPaz from "/public/assets/images/photos/samba-paz.webp";
+import trocaMica from "/public/assets/images/photos/troca-mica.webp";
+import trocaPaz from "/public/assets/images/photos/troca-paz.webp";
+import triboMica from "/public/assets/images/photos/indios-mica.webp";
+import triboPaz from "/public/assets/images/photos/indios-paz.webp";
+import ursaMica from "/public/assets/images/photos/laursa-mica.webp";
+import ursaPaz from "/public/assets/images/photos/laursa-paz.webp";
 
 const imageData = [
 	// Afoxé
@@ -34,6 +34,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica, spray e costura sobre tela canvas",
 			type: "Afoxé",
+			audio: "/assets/audios/afoxé-mica.mp3",
 		},
 	},
 	{
@@ -45,6 +46,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Afoxé",
+			audio: "/assets/audios/afoxé-paz.mp3",
 		},
 	},
 
@@ -58,6 +60,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica, spray e instalação sobre madeira",
 			type: "Bloco de Pau e Corda",
+			audio: "/assets/audios/bloco-mica.mp3",
 		},
 	},
 	{
@@ -69,6 +72,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Bloco de Pau e Corda",
+			audio: "/assets/audios/bloco-paz.mp3",
 		},
 	},
 
@@ -82,6 +86,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica, spray e costura sobre tela canvas",
 			type: "Boi de Carnaval",
+			audio: "/assets/audios/boi-mica.mp3",
 		},
 	},
 	{
@@ -93,6 +98,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Boi de Carnaval",
+			audio: "/assets/audios/boi-paz.mp3",
 		},
 	},
 
@@ -106,6 +112,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica sobre tela canvas",
 			type: "Caboclinhos",
+			audio: "/assets/audios/caboclinhos-mica.mp3",
 		},
 	},
 	{
@@ -118,6 +125,7 @@ const imageData = [
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Caboclinhos",
 			isVertical: true,
+			audio: "/assets/audios/caboclinhos-paz.mp3",
 		},
 	},
 
@@ -131,6 +139,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica e spray em madeira",
 			type: "Clube de Bonecos",
+			audio: "/assets/audios/bonecos-mica.mp3",
 		},
 	},
 	{
@@ -142,6 +151,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Clube de Bonecos",
+			audio: "/assets/audios/bonecos-paz.mp3",
 		},
 	},
 
@@ -156,6 +166,7 @@ const imageData = [
 			technique: "Pintura acrílica, spray e colagem sobre madeira",
 			type: "Clube de Frevo",
 			isVertical: true,
+			audio: "/assets/audios/frevo-mica.mp3",
 		},
 	},
 	{
@@ -167,6 +178,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Clube de Frevo",
+			audio: "/assets/audios/frevo-paz.mp3",
 		},
 	},
 
@@ -180,6 +192,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica e costura sobre tela canvas",
 			type: "Escola de Samba",
+			audio: "/assets/audios/samba-mica.mp3",
 		},
 	},
 	{
@@ -191,6 +204,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Escola de Samba",
+			audio: "/assets/audios/samba-paz.mp3",
 		},
 	},
 
@@ -205,6 +219,7 @@ const imageData = [
 			technique: "Pintura acrílica sobre tela canvas",
 			type: "La Ursa",
 			isVertical: true,
+			audio: "/assets/audios/laursa-mica.mp3",
 		},
 	},
 	{
@@ -217,6 +232,7 @@ const imageData = [
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "La Ursa",
 			isVertical: true,
+			audio: "/assets/audios/laursa-paz.mp3",
 		},
 	},
 
@@ -230,6 +246,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica, spray e colagem sobre madeira",
 			type: "Maracatu Nação",
+			audio: "/assets/audios/nacao-mica.mp3",
 		},
 	},
 	{
@@ -241,6 +258,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Maracatu Nação",
+			audio: "/assets/audios/nacao-paz.mp3",
 		},
 	},
 
@@ -254,6 +272,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica, spray e colagem sobre madeira",
 			type: "Maracatu Rural",
+			audio: "/assets/audios/maracatu-rural-mica.mp3",
 		},
 	},
 	{
@@ -265,6 +284,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Maracatu Rural",
+			audio: "/assets/audios/maracatu-rural-paz.mp3",
 		},
 	},
 
@@ -278,6 +298,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica sobre madeira",
 			type: "Tribo de Índio",
+			audio: "/assets/audios/tribo-mica.mp3",
 		},
 	},
 	{
@@ -289,6 +310,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Tribo de Índio",
+			audio: "/assets/audios/tribo-paz.mp3",
 		},
 	},
 
@@ -302,6 +324,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica e spray sobre tela canvas",
 			type: "Troça Carnavalesca",
+			audio: "/assets/audios/troca-mica.mp3",
 		},
 	},
 	{
@@ -313,6 +336,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Troça Carnavalesca",
+			audio: "/assets/audios/troca-paz.mp3",
 		},
 	},
 ];

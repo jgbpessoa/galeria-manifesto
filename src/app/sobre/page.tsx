@@ -1,6 +1,6 @@
 import styles from "./page.module.css";
 import Image from "next/image";
-import aboutImage from "../public/assets/images/photos/sobre.webp";
+import aboutImage from "./public/assets/images/photos/sobre.webp";
 
 export default function About() {
 	return (

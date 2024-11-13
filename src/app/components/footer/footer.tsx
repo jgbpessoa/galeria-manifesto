@@ -1,7 +1,7 @@
 import Image from "next/image";
 import InstaIcon from "../instaIcon";
 import styles from "./footer.module.css";
-import logomarcas from "../../public/assets/images/logomarcas.png";
+import logomarcas from "/public/assets/images/logomarcas.png";
 
 const Footer = () => {
 	const year = new Date().getFullYear();

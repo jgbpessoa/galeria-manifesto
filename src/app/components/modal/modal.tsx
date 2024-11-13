@@ -1,7 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import styles from "./modal.module.css";
 import Image, { StaticImageData } from "next/image";
-import { get } from "http";
 
 interface TechnicalData {
 	name: string;
@@ -10,6 +9,7 @@ interface TechnicalData {
 	technique: string;
 	type: string;
 	isVertical?: boolean;
+	audio: string;
 }
 
 interface ModalProps {
@@ -21,6 +21,7 @@ interface ModalProps {
 
 const Modal = ({ isOpen, onClose, images, initialIndex }: ModalProps) => {
 	const [currentIndex, setCurrentIndex] = useState(initialIndex);
+	const audioRef = useRef<HTMLAudioElement | null>(null);
 
 	useEffect(() => {
 		if (isOpen) {
@@ -32,6 +33,13 @@ const Modal = ({ isOpen, onClose, images, initialIndex }: ModalProps) => {
 			document.body.style.overflow = "auto";
 		};
 	}, [isOpen]);
+
+	useEffect(() => {
+		if (audioRef.current) {
+			audioRef.current.pause();
+			audioRef.current.load();
+		}
+	}, [currentIndex]);
 
 	const nextImage = () => {
 		setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
@@ -216,6 +224,12 @@ const Modal = ({ isOpen, onClose, images, initialIndex }: ModalProps) => {
 						<p className={styles.type}>
 							{getElementFromType(data?.type)}
 						</p>
+					</div>
+					<div className={styles.audioContainer}>
+						<audio ref={audioRef} controls>
+							<source src={data?.audio} type="audio/mp3" />
+							Your browser does not support the audio element.
+						</audio>
 					</div>
 					<div className={styles.technicalData}>
 						<p>

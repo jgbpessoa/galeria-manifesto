@@ -126,70 +126,15 @@
 	font-weight: 600;
 }
 
+.audioContainer {
+	display: flex;
+	justify-content: center;
+}
+
 .icon {
 	width: 50px;
 	height: 50px;
 	align-self: center;
-}
-
-.blocoPauCorda {
-	background: url("../../public/assets/images/manifestacoes/bloco-de-pau-e-corda.svg")
-		no-repeat;
-}
-
-.escolaSamba {
-	background: url("../../public/assets/images/manifestacoes/escola-de-samba.svg")
-		no-repeat;
-}
-
-.clubeFrevo {
-	background: url("../../public/assets/images/manifestacoes/clube-de-frevo.svg")
-		no-repeat;
-}
-
-.laUrsa {
-	background: url("../../public/assets/images/manifestacoes/la-ursa.svg")
-		no-repeat;
-}
-
-.caboclinhos {
-	background: url("../../public/assets/images/manifestacoes/caboclinhos.svg")
-		no-repeat;
-}
-
-.afoxe {
-	background: url("../../public/assets/images/manifestacoes/afoxe.svg")
-		no-repeat;
-}
-
-.boiCarnaval {
-	background: url("../../public/assets/images/manifestacoes/boi-de-carnaval.svg")
-		no-repeat;
-}
-
-.clubeBonecos {
-	background: url("../../public/assets/images/manifestacoes/clube-de-bonecos.svg")
-		no-repeat;
-}
-
-.maracatuNacao {
-	background: url("../../public/assets/images/manifestacoes/maracatu-nacao.svg")
-		no-repeat;
-}
-
-.maracatuRural {
-	background: url("../../public/assets/images/manifestacoes/maracatu-rural.svg")
-		no-repeat;
-}
-
-.triboIndios {
-	background: url("../../public/assets/images/manifestacoes/tribo-de-indio.svg")
-		no-repeat;
-}
-
-.trocaCarnavalesca {
-	background: url("../../public/assets/images/manifestacoes/troca-carnavalesca.svg")
-		no-repeat;
 }
 
 @media (min-width: 600px) {
