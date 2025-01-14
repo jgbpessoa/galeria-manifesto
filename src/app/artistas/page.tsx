@@ -1,7 +1,7 @@
 import styles from "./page.module.css";
 import Image from "next/image";
-import micaImage from "./public/assets/images/photos/mica.webp";
-import pazImage from "./public/assets/images/photos/paz.webp";
+import micaImage from "../../../public/assets/images/photos/mica.webp";
+import pazImage from "../../../public/assets/images/photos/paz.webp";
 
 export default function Artists() {
 	return (
