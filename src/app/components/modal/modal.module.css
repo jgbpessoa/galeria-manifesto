@@ -131,6 +131,59 @@
 	justify-content: center;
 }
 
+.blocoPauCorda {
+	background: url("/assets/images/manifestacoes/bloco-de-pau-e-corda.svg")
+		no-repeat;
+}
+
+.escolaSamba {
+	background: url("/assets/images/manifestacoes/escola-de-samba.svg")
+		no-repeat;
+}
+
+.clubeFrevo {
+	background: url("/assets/images/manifestacoes/clube-de-frevo.svg") no-repeat;
+}
+
+.laUrsa {
+	background: url("/assets/images/manifestacoes/la-ursa.svg") no-repeat;
+}
+
+.caboclinhos {
+	background: url("/assets/images/manifestacoes/caboclinhos.svg") no-repeat;
+}
+
+.afoxe {
+	background: url("/assets/images/manifestacoes/afoxe.svg") no-repeat;
+}
+
+.boiCarnaval {
+	background: url("/assets/images/manifestacoes/boi-de-carnaval.svg")
+		no-repeat;
+}
+
+.clubeBonecos {
+	background: url("/assets/images/manifestacoes/clube-de-bonecos.svg")
+		no-repeat;
+}
+
+.maracatuNacao {
+	background: url("/assets/images/manifestacoes/maracatu-nacao.svg") no-repeat;
+}
+
+.maracatuRural {
+	background: url("/assets/images/manifestacoes/maracatu-rural.svg") no-repeat;
+}
+
+.triboIndios {
+	background: url("/assets/images/manifestacoes/tribo-de-indio.svg") no-repeat;
+}
+
+.trocaCarnavalesca {
+	background: url("/assets/images/manifestacoes/troca-carnavalesca.svg")
+		no-repeat;
+}
+
 .icon {
 	width: 50px;
 	height: 50px;

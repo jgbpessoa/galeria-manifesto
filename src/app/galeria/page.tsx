@@ -27,10 +27,8 @@ export default function Gallery() {
 			<section className={styles.hero}>
 				<h1 className={styles.title}>Galeria</h1>
 				<p className={styles.warning}>
-					🎧 Audiodescrição das obras disponível em breve! 🎧
-				</p>
-				<p className={styles.warning}>
-					🖼️ Clique nas obras para mais informações 🖼️
+					🎧 Clique nas obras para mais informações e audiodescrição!
+					🖼️
 				</p>
 			</section>
 			<section className={styles.gallery}>

@@ -10,6 +10,7 @@ interface TechnicalData {
 	type: string;
 	isVertical?: boolean;
 	audio: string;
+	alt: string;
 }
 
 interface ModalProps {
@@ -214,7 +215,7 @@ const Modal = ({ isOpen, onClose, images, initialIndex }: ModalProps) => {
 					<div className={styles.modalImageContainer}>
 						<Image
 							src={src}
-							alt="Selected artwork"
+							alt={data.alt}
 							className={`${styles.modalImage} ${
 								data.isVertical ? styles.vertical : ""
 							}`}
@@ -226,7 +227,11 @@ const Modal = ({ isOpen, onClose, images, initialIndex }: ModalProps) => {
 						</p>
 					</div>
 					<div className={styles.audioContainer}>
-						<audio ref={audioRef} controls>
+						<audio
+							ref={audioRef}
+							controls
+							aria-label="Audiodescrição"
+						>
 							<source src={data?.audio} type="audio/wav" />
 							Your browser does not support the audio element.
 						</audio>
