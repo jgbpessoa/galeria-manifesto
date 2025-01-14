@@ -227,7 +227,7 @@ const Modal = ({ isOpen, onClose, images, initialIndex }: ModalProps) => {
 					</div>
 					<div className={styles.audioContainer}>
 						<audio ref={audioRef} controls>
-							<source src={data?.audio} type="audio/mp3" />
+							<source src={data?.audio} type="audio/wav" />
 							Your browser does not support the audio element.
 						</audio>
 					</div>

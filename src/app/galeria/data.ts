@@ -34,7 +34,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica, spray e costura sobre tela canvas",
 			type: "Afoxé",
-			audio: "/assets/audios/afoxé-mica.mp3",
+			audio: "/assets/audios/afoxé-mica.wav",
 		},
 	},
 	{
@@ -46,7 +46,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Afoxé",
-			audio: "/assets/audios/afoxé-paz.mp3",
+			audio: "/assets/audios/afoxé-paz.wav",
 		},
 	},
 
@@ -60,7 +60,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica, spray e instalação sobre madeira",
 			type: "Bloco de Pau e Corda",
-			audio: "/assets/audios/bloco-mica.mp3",
+			audio: "/assets/audios/bloco-mica.wav",
 		},
 	},
 	{
@@ -72,7 +72,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Bloco de Pau e Corda",
-			audio: "/assets/audios/bloco-paz.mp3",
+			audio: "/assets/audios/bloco-paz.wav",
 		},
 	},
 
@@ -86,7 +86,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica, spray e costura sobre tela canvas",
 			type: "Boi de Carnaval",
-			audio: "/assets/audios/boi-mica.mp3",
+			audio: "/assets/audios/boi-mica.wav",
 		},
 	},
 	{
@@ -98,7 +98,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Boi de Carnaval",
-			audio: "/assets/audios/boi-paz.mp3",
+			audio: "/assets/audios/boi-paz.wav",
 		},
 	},
 
@@ -112,7 +112,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica sobre tela canvas",
 			type: "Caboclinhos",
-			audio: "/assets/audios/caboclinhos-mica.mp3",
+			audio: "/assets/audios/caboclinhos-mica.wav",
 		},
 	},
 	{
@@ -125,7 +125,7 @@ const imageData = [
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Caboclinhos",
 			isVertical: true,
-			audio: "/assets/audios/caboclinhos-paz.mp3",
+			audio: "/assets/audios/caboclinhos-paz.wav",
 		},
 	},
 
@@ -139,7 +139,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica e spray em madeira",
 			type: "Clube de Bonecos",
-			audio: "/assets/audios/bonecos-mica.mp3",
+			audio: "/assets/audios/bonecos-mica.wav",
 		},
 	},
 	{
@@ -151,7 +151,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Clube de Bonecos",
-			audio: "/assets/audios/bonecos-paz.mp3",
+			audio: "/assets/audios/bonecos-paz.wav",
 		},
 	},
 
@@ -166,7 +166,7 @@ const imageData = [
 			technique: "Pintura acrílica, spray e colagem sobre madeira",
 			type: "Clube de Frevo",
 			isVertical: true,
-			audio: "/assets/audios/frevo-mica.mp3",
+			audio: "/assets/audios/frevo-mica.wav",
 		},
 	},
 	{
@@ -178,7 +178,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Clube de Frevo",
-			audio: "/assets/audios/frevo-paz.mp3",
+			audio: "/assets/audios/frevo-paz.wav",
 		},
 	},
 
@@ -192,7 +192,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica e costura sobre tela canvas",
 			type: "Escola de Samba",
-			audio: "/assets/audios/samba-mica.mp3",
+			audio: "/assets/audios/samba-mica.wav",
 		},
 	},
 	{
@@ -204,7 +204,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Escola de Samba",
-			audio: "/assets/audios/samba-paz.mp3",
+			audio: "/assets/audios/samba-paz.wav",
 		},
 	},
 
@@ -219,7 +219,7 @@ const imageData = [
 			technique: "Pintura acrílica sobre tela canvas",
 			type: "La Ursa",
 			isVertical: true,
-			audio: "/assets/audios/laursa-mica.mp3",
+			audio: "/assets/audios/laursa-mica.wav",
 		},
 	},
 	{
@@ -232,7 +232,7 @@ const imageData = [
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "La Ursa",
 			isVertical: true,
-			audio: "/assets/audios/laursa-paz.mp3",
+			audio: "/assets/audios/laursa-paz.wav",
 		},
 	},
 
@@ -246,7 +246,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica, spray e colagem sobre madeira",
 			type: "Maracatu Nação",
-			audio: "/assets/audios/nacao-mica.mp3",
+			audio: "/assets/audios/nacao-mica.wav",
 		},
 	},
 	{
@@ -258,7 +258,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Maracatu Nação",
-			audio: "/assets/audios/nacao-paz.mp3",
+			audio: "/assets/audios/nacao-paz.wav",
 		},
 	},
 
@@ -272,7 +272,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica, spray e colagem sobre madeira",
 			type: "Maracatu Rural",
-			audio: "/assets/audios/maracatu-rural-mica.mp3",
+			audio: "/assets/audios/maracatu-rural-mica.wav",
 		},
 	},
 	{
@@ -284,7 +284,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Maracatu Rural",
-			audio: "/assets/audios/maracatu-rural-paz.mp3",
+			audio: "/assets/audios/maracatu-rural-paz.wav",
 		},
 	},
 
@@ -298,7 +298,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica sobre madeira",
 			type: "Tribo de Índio",
-			audio: "/assets/audios/tribo-mica.mp3",
+			audio: "/assets/audios/tribo-mica.wav",
 		},
 	},
 	{
@@ -310,7 +310,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Tribo de Índio",
-			audio: "/assets/audios/tribo-paz.mp3",
+			audio: "/assets/audios/tribo-paz.wav",
 		},
 	},
 
@@ -324,7 +324,7 @@ const imageData = [
 			artist: "Micaela Almeida",
 			technique: "Pintura acrílica e spray sobre tela canvas",
 			type: "Troça Carnavalesca",
-			audio: "/assets/audios/troca-mica.mp3",
+			audio: "/assets/audios/troca-mica.wav",
 		},
 	},
 	{
@@ -336,7 +336,7 @@ const imageData = [
 			artist: "Paz Brandão",
 			technique: "Pintura acrílica e giz pastel sobre tela canvas",
 			type: "Troça Carnavalesca",
-			audio: "/assets/audios/troca-paz.mp3",
+			audio: "/assets/audios/troca-paz.wav",
 		},
 	},
 ];
