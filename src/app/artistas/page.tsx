@@ -19,41 +19,35 @@ export default function Artists() {
 							<h2 className={styles.name}>Micaela Almeida</h2>
 						</div>
 						<p className={styles.description}>
-							Artista multifacetada de Recife, atua na arte urbana
-							e na produção cultural. Desde 2016 desenvolve
-							projetos focados em pintura muralista, intervenções
-							urbanas e arte-educação. Dentre os projetos que
-							produziu e realizou destacam-se em 2021 a
-							intervenção urbana “Corpo-Território: Grandes
-							Mulheres Presentes”, homenageando figuras femininas
-							históricas e demarcando espaços significativos para
-							mulheres do Recife, pelo qual recebeu o prêmio
-							“Inspiradora” no World Creativity Day 2023; a
-							intervenção “ColaNelas” em 2022, destacando mulheres
-							que constróem diretamente a cultura popular de
-							Pernambuco e que lutam contra a invisibilização. A
-							artista já teve pinturas expostas no Museu da
-							Abolição, Paço do Frevo, CasaZero e na Pinacoteca
-							Potiguar/RN. Entre 2022 e 2024, por meio do programa
-							Colorindo o Recife, produziu murais significativos e
-							oficinas arte-educativas. Seu trabalho mais recente
-							é o megamural “Naná Vasconcelos: Sinfonia &
-							Batuques”, na qual homenageia o pernambucano eleito
-							oito vezes o melhor percussionista do mundo em
-							frente ao Parque 13 de Maio. Realizou dois trabalhos
-							de pintura em Natal/RN e Recife/PE que convergem na
-							temática da valorização comunitária, da pesca
-							artesanal e das tradições artesanais locais: a
-							revitalização das fachadas do Conselho Comunitário
-							de Ponta Negra e da Colônia de Pescadoras/es Z-10 de
-							Itapissuma. Atualmente a artista participa da
-							Comissão de Acompanhamento do programa Colorindo o
-							Recife e desenvolve projetos culturais como "LAJE
-							CRIADA", ateliê de serigrafia artesanal, e a
-							exposição "No Manifesto das Ruas, Sou Meu Carnaval",
-							que ressalta a história das manifestações populares
-							do carnaval pernambucano a partir da arte
-							contemporânea.
+							Micaela Almeida, natural de
+							Recife-Pernambuco-Brasil, é uma artista de criações
+							em diversas linguagens, incluindo pinturas, colagem,
+							escrita e tatuagem. Idealiza e produz editais
+							culturais produzindo obras artísticas, além de
+							facilitar aulas arte-educativas e realizar a
+							expografia e montagem de exposições. Em suas obras
+							busca comunicar a natureza humana e contribuir na
+							libertação mental coletiva sob a perspectiva de
+							indagações sociais pertinentes. <br />
+							Iniciou as práticas artísticas em 2016 a partir da
+							intervenção urbana com cartazes de lambe-lambe
+							colados no espaço público, com mensagens para
+							quebrar os padrões opressores impostos às mulheres.
+							Em 2018 começa a desenvolver trabalhos de graffiti e
+							pintura muralista. Participou de exposições
+							coletivas em lugares como o Museu da Abolição, Paço
+							do Frevo e Casa do Carnaval, em Recife, e na
+							Pinacoteca Potiguar de Natal/RN. Em 2023 destaca-se
+							pela pintura do 1º megamural do mundo em homenagem
+							ao percussionista Naná Vasconcelos, localizado na
+							Rua Princesa Isabel, em frente ao Parque 13 de Maio.
+							Em 2024 retratou 12 manifestações populares do
+							carnaval pernambucano através da pintura, colagem e
+							costura com a exposição “No Manifesto das Ruas, Sou
+							Meu Carnaval”. A artista compõe a Comissão de
+							Acompanhamento do Gabinete de Inovação Urbana, da
+							Prefeitura do Recife, um canal voluntário entre a
+							classe artística local e o poder público.
 						</p>
 					</div>
 					<div className={styles.artist}>
