@@ -64,3 +64,41 @@
 	max-width: 800px;
 	height: 400px;
 }
+
+.star {
+	width: 75px;
+	height: 75px;
+	margin: 44px auto;
+	background: url("/assets/images/star.svg") no-repeat;
+}
+
+.instagramContainer {
+	display: flex;
+	gap: 64px;
+	margin-bottom: 24px;
+}
+
+.instagramLink {
+	font-size: 32px;
+	font-family: var(--font-oferta);
+	color: var(--baseBlue);
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+
+	&:hover {
+		color: var(--baseRed);
+	}
+}
+
+@media screen and (max-width: 678px) {
+	.instagramContainer {
+		flex-direction: column;
+		gap: 32px;
+		align-items: center;
+		margin-bottom: 48px;
+	}
+
+	.instagramLink {
+		font-size: 28px;
+	}
+}
