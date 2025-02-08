@@ -1,0 +1,30 @@
+.title {
+	font-family: var(--font-licorice);
+	font-size: 72px;
+	color: var(--mainTextColor);
+	padding: 32px 0;
+	position: relative;
+}
+
+.main {
+	padding-top: 16px;
+}
+
+.hero {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 24px;
+}
+
+.title {
+	font-size: 52px;
+	font-family: var(--font-oferta);
+	color: var(--baseRed);
+}
+
+.pdf {
+	margin: 0 24px 32px;
+	width: 100%;
+	max-width: 800px;
+}

@@ -79,6 +79,17 @@ const Header = () => {
 					</li>
 					<li>
 						<Link
+							href="/catalogo"
+							className={`${styles.navLink} ${
+								isActiveLink("/catalogo") ? styles.isActive : ""
+							}`}
+							onClick={handleLinkClick}
+						>
+							Catálogo
+						</Link>
+					</li>
+					<li>
+						<Link
 							href="/artistas"
 							className={`${styles.navLink} ${
 								isActiveLink("/artistas") ? styles.isActive : ""
