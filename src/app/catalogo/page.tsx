@@ -7,7 +7,7 @@ export default function Contact() {
 				<h1 className={styles.title}>Catálogo</h1>
 				<iframe
 					className={styles.pdf}
-					src="https://drive.google.com/file/d/1ZgNMhgx74SrJHvkZ37RU2i93Oqg3ztjA/preview"
+					src="https://drive.google.com/file/d/1vC5Ot8WRmkfkmTtvP4Rck_maNuiYKPtM/preview"
 					width="800"
 					height="600"
 					allow="autoplay"
