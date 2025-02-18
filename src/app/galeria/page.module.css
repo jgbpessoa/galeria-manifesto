@@ -53,6 +53,9 @@
 	width: fit-content;
 	border-radius: 8px;
 	background: var(--white);
+	max-width: fit-content;
+	width: calc(100% - 80px);
+	box-sizing: border-box;
 	margin: 0 auto 16px;
 }
 
@@ -65,6 +68,8 @@
 
 	.warning {
 		font-size: 12px;
+		padding: 8px;
+		line-height: 1.5;
 	}
 
 	.title {
